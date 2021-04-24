@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="Surv.css">
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div id="tit">
+        <h1 id="title">freecodecamp Survery Form</h1>
+    </div>
+    <div id="desc">
+        <p id="description">
+            Thank You For Taking TIme To Help Us Improve The Platform.
+        </p>
+    </div>
+    <div id="for">
+        <form id="survey-form">
+            <div>
+                <label for="name" id="name-label">Full Name</label>
+                <input type="text" placeholder="Enter Your Full Name" id="name" required>
+            </div>
+            <div>
+                <label for="email" id="email-label">E-mail Address</label>
+                <input type="email" placeholder="Enter Your E-mail Address" id="email" required>
+            </div>
+            <div>
+                <label for="number" id="number-label">Phone Number</label>
+                <input type="number" min = 10 max = 80 placeholder="Enter Your Phone Number" id="number" required> 
+            </div>
+            <div>
+                <label for="dropdown" id="drop">Which Option Best Describes Your Current Role ?</label>
+                <select id="dropdown">
+                    <option value="student">Student</option>
+                    <option value="fulltimejob">Full Time Job</option>
+                    <option value="learner">Full Time Learner</option>
+                    <option value="partimejob">Part Time Job</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label>Favourite Language:</label>
+                <label for="c++">C++</label>
+                <input value="c++" name="Lang" type="radio" id="c++">
+                <label for="python">Python</label>
+                <input value="pyt" name="Lang" type="radio" id="python">
+            </div>
+            <div>
+                <label>Aim:</label>
+                <label for="front">Front-End-Developer</label>
+                <input value="front" type="checkbox" id="front">
+                <label for="back">Back-End-Developer</label>
+                <input value="back" type="checkbox" id="back">
+            </div>
+            <div>
+                <textarea placeholder="Any Further Comments..."></textarea>
+            </div>
+            <div>
+                <input type="submit" id="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
