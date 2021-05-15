@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+body {
+    font-family: 'Pangolin', cursive;
+}
+.Heading {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+}
+
+.Text {
+    border: 3px gray solid;
+    height: 8vh;
+    width: 100vh;
+}
+
+.ano {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+/*
+.Fight {
+    font-family: 'Pangolin',cursive;
+    align-self: flex-end;
+    height: fit-content;
+    font-size: 40px;
+}*/
+.playerbox,.robotbox {
+    align-self: center;
+    height: 40vh;
+    width: 40vh;
+}
+
+.infoplayer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px gray solid;
+}
+
+.robotn,.playern,.score {
+    border: 2px gray solid;
+    text-align: center;
+}
+
+.inforobot {
+    display: flex;
+    flex-direction: column;
+    border: 2px gray solid;
+}
+.robots {
+    width: fit-content;
+}
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 20vh;
+    padding: 2vh;
+    height: 20vh;
+    border: 2px gray solid;
+}
