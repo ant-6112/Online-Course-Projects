@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+/*.main {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(6,50px);
+    background-color: white;
+    grid-template-areas: 'op op op . . .';
+}
+
+.main > div {
+    border: 2px gray solid;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}*/
+
+body {
+    background-color: orange;
+}
+.main {
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea myArea';
+    grid-gap: 10px;
+    background-color: darkslategray;
+    padding: 10px;
+}
+.area {
+    grid-area: myArea;
+}
+.main > div {
+    font-family: 'Rubik', sans-serif;
+    color: green;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border-radius: 50%;
+}
